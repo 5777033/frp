@@ -25,7 +25,6 @@ DASHBOARD_PASS=${DASHBOARD_PASS:-$DASHBOARD_PASS_DEFAULT}
 # 创建日志目录
 # -----------------------------
 mkdir -p "$INSTALL_DIR/logs"
-
 # -----------------------------
 # 生成 frps.toml
 # -----------------------------
