@@ -22,14 +22,6 @@ read -p "请输入 Dashboard 登录密码 (默认: $DASHBOARD_PASS_DEFAULT): " D
 DASHBOARD_PASS=${DASHBOARD_PASS:-$DASHBOARD_PASS_DEFAULT}
 
 # -----------------------------
-# 安装 Docker 和 Docker Compose
-# -----------------------------
-echo "[1/5] 安装 Docker 和 Compose..."
-apt update -y
-apt install -y docker.io docker-compose
-systemctl enable --now docker
-
-# -----------------------------
 # 创建日志目录
 # -----------------------------
 mkdir -p "$INSTALL_DIR/logs"
