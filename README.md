@@ -142,5 +142,8 @@ frpc -c frpc.ini
 这样写的 `README.md` 在 **GitHub、Gitea、VSCode、Typora** 等 Markdown 解析器中都会正常显示。
 
 
+
+
+
 ---
-# FRP 客户端一键部署请转至frpc_README.md
+# FRP 客户端一键部署请转至FRPC_README.md
