@@ -143,4 +143,4 @@ frpc -c frpc.ini
 
 
 ---
-# FRP 客户端请转至frpc_README.md
+# FRP 客户端一键部署请转至frpc_README.md
