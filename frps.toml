@@ -1,0 +1,33 @@
+# FRP 服务端基础配置
+bindAddr = "0.0.0.0"
+bindPort = 7000
+kcpBindPort = 7001
+quicBindPort = 7002
+
+# 认证配置
+auth.method = "token"
+auth.token = "token_pwd"  # 建议使用复杂密码
+
+# 仪表盘配置
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "admin123"  # 不同于token
+
+# 传输加密（可选）
+#transport.tls.force = false
+#transport.tls.certFile = "/etc/frp/certs/server.crt"
+#transport.tls.keyFile = "/etc/frp/certs/server.key"
+
+# 日志配置
+log.to = "file"
+log.level = "info"
+log.maxDays = 7
+
+# 高级配置
+maxPortsPerClient = 0  # 0表示无限制
+udpPacketSize = 1500
+
+# 关键配置
+vhostHttpPort = 8080
+vhostHttpsPort = 8443
