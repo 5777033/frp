@@ -1,4 +1,4 @@
-# 🚀 FRP 服务端 Docker 一键部署  
+# 🚀 RP 服务端 Docker compose 一键部署  
 
 本项目用于快速部署 **FRP (Fast Reverse Proxy)** 服务端，支持 **TCP、UDP、HTTP、HTTPS、KCP、QUIC** 协议，采用 Docker Compose 一键启动。
 
@@ -146,4 +146,4 @@ frpc -c frpc.ini
 
 
 ---
-# FRP 客户端一键部署请转至FRPC_README.md
+# FRP 服务端 Docker compose 一键部署 请转至FRPC_README.md
