@@ -17,7 +17,7 @@
 
 ### 1️⃣ 上传脚本至服务器
 
-将 `install_frps.sh` 上传至目标服务器的任意目录，例如 `/data/frp`。
+将 `deploy_frps.sh` 上传至目标服务器的任意目录，例如 `/data/frp`。
 
 ```
 wget https://raw.githubusercontent.com/5777033/frp/main/deploy_frps.sh
